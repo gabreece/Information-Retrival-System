@@ -3,5 +3,5 @@ google-generativeai
 langchain
 PyPDF2
 faiss-cpu
-steamlit
+streamlit
 -e .
