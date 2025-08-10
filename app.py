@@ -17,14 +17,6 @@ def user_input(user_question):
     else:
         st.warning("Please upload and process PDF documents before asking questions.")
 
-    # response = st.session_state.conversational_chain({"question": user_question})
-    # st.session_state.chatHistory = response["chat_history"]
-    # for i, message in enumerate(st.session_state.chatHistory):
-    #     if i % 2 == 0:
-    #         st.write(f"User: {message['content']}")
-    #     else:
-    #         st.write(f"Bot: {message['content']}")
-
 def main():
     st.set_page_config("Information Retrieval System", layout="wide")
     st.header("Information Retrieval System")
